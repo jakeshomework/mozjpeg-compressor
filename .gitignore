@@ -1,5 +1,5 @@
 # dependencies
-/node_modules
+node_modules
 
 LARGE_IMAGES/*
 !LARGE_IMAGES/.gitkeep
