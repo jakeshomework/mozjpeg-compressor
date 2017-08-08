@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+LARGE_IMAGES/*
+!LARGE_IMAGES/.gitkeep
+
+MINIFIED_IMAGES/*
+!MINIFIED_IMAGES/.gitkeep
