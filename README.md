@@ -4,10 +4,10 @@ Reads a directory of images and compresses all `.jpeg` and `.jpg` files.
 
 ## Instructions for use
 
-* Open a terminal to first clone this repository: `git clone https://github.com/JstnEdr/mozjpeg-compressor.git`
-* Drop all files you want to compress into the **LARGE_IMAGES** directory
-* In the terminal, cd into the `mozjpeg-compressor` directory
+* Open a terminal to clone this repository: `git clone https://github.com/JstnEdr/mozjpeg-compressor.git`
+* In the terminal, `cd mozjpeg-compressor`
 * In the terminal: run `npm install` to install package dependencies (only need to do this once on initial install)
+* Drop all files you want to compress into the **LARGE_IMAGES** directory
 * To start the mozjpeg-compressor, run `npm start` in the terminal
 * Access your minified files in **MINIFIED_IMAGES**
 
