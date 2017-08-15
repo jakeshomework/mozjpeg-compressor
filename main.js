@@ -9,6 +9,9 @@ var jpegArray = [];
 
 // ===== BUILD THE JPEG ARRAY ===== //
 fs.readdir(inputDir, function(err, items) {
+    if (err) {
+      console.log(err);
+    }
     for (var i=0; i<items.length; i++) {
       let item = items[i];
       let index = item.indexOf('.');
@@ -32,6 +35,9 @@ function compressImagesInArray(arrayToCompress) {
       let outputFile = outputDir + '/' + image;
       // console.log('FILES', inputFile, outputFile);
       execFile(mozjpeg, ['-outfile', outputFile, inputFile], function (err) {
+          if (err) {
+            console.log(err);
+          }
           console.log('Image minified:', outputFile);
           pos++;
           compressSingleImage(arrayToCompress[pos])
