@@ -37,8 +37,7 @@ function compressImagesInArray(arrayToCompress) {
       execFile(mozjpeg, ['-outfile', outputFile, inputFile], function (err) {
           if (err) {
             console.log(err);
-          }
-          console.log('Image minified:', outputFile);
+          } else console.log('Image minified:', outputFile);
           pos++;
           compressSingleImage(arrayToCompress[pos])
       });
