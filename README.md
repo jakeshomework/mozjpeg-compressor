@@ -18,9 +18,9 @@ https://github.com/Kurtz1993/ionic-minify/issues/14
 
 ## Installation Instructions (first use)
 
-* Open a terminal to clone this repository: `git clone https://github.com/JstnEdr/mozjpeg-compressor.git`
-* In the terminal, `cd mozjpeg-compressor`
-* In the terminal: run `npm install` to install package dependencies (only need to do this once on initial install)
+* Open Terminal to clone this repository: `git clone https://github.com/JstnEdr/mozjpeg-compressor.git`
+* In Terminal, `cd mozjpeg-compressor`
+* In Terminal: run `npm install` to install package dependencies (only need to do this once on initial install)
 * Drop all files you want to compress into the **LARGE_IMAGES** directory
 * To start the mozjpeg-compressor, run `npm start` in the terminal
 * Access your minified files in **MINIFIED_IMAGES**
@@ -28,7 +28,7 @@ https://github.com/Kurtz1993/ionic-minify/issues/14
 ## Subsequent Usage Instructions
 
 * Drop all files you want to compress into the **LARGE_IMAGES** directory
-* From a terminal, `cd` into start the mozjpeg-compressor
+* From a Terminal, `cd` into mozjpeg-compressor (or right click on the mozjpeg-compressor >> Services >> New Terminal at folder )
 * Run `npm start` in the terminal
 * Access your minified files in **MINIFIED_IMAGES**
 
